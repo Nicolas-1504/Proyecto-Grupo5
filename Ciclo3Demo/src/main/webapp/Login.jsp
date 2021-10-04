@@ -18,7 +18,7 @@
 	<div class="container mt-4 col-lg-4" >
     <div class="card col-sm-10" style="border-radius: 10px; border: 6px black solid ;margin: 18% 0% 0% 12%; ">
       <div class="card-body" >
-				<form class="form-sign" action="./DemoServlet" method="post">
+				<form class="form-sign" action="./DemoServlet" method="get">
 					<div class="form-group text-center">
 						<img height="120" src="images/avatar.jpg" >
 						<br> <br>

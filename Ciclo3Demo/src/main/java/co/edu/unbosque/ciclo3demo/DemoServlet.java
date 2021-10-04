@@ -24,7 +24,7 @@ public class DemoServlet extends HttpServlet {
     
     public void validarUsuarios(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
 	    	try {
-				ArrayList<Usuario> lista = TestJson.getJSON();
+				ArrayList<Usuario> lista = UsuarioJson.getJSON();
 				request.setAttribute("lista", lista);
 				String usua = request.getParameter("usuario");
 				String pass = request.getParameter("password");
