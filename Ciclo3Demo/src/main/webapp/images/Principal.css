@@ -1,0 +1,61 @@
+@charset "ISO-8859-1";
+
+/* Este es el Menu */
+
+body {
+    background-image: url("https://fondosmil.com/fondo/457.png");
+}
+
+#menu{
+	margin:10px;
+	background: rgba(0,0,100,0.5);
+	padding: 10px 40px 10px 5px;	
+}
+
+.nav-item a{
+	margin: 5px 6px;
+	padding: 10px 20px;
+	border:none;
+ 	background: #4CC9F0; /* rgba(0,0,0,0.5) */
+	font-size:large;
+	font-weight: bold;
+}
+
+#pestaña {
+	background: #FFBA08;
+	font-size:x-large;
+	margin: 0px 15px;	
+}
+
+
+/* Este es Usuarios - Clientes - Productos - Proveedores */
+
+#BoxUsuario {
+	background: rgba(178, 235, 242,0.2); /* 	background-color: #; */	
+	border: 1px #023E8A dashed;
+	border-radius:15px;
+	margin: 0px 3px 0px 20px;
+	width: 38%;
+}
+
+.col-md-8 {
+	background: rgba(128, 222, 234,0.2); /* 	background-color: #; */
+	border: 1px #023E8A dotted;
+	border-radius:15px;
+	margin: 0px 5px 0px 3px;
+	width: 59%;
+}
+
+h4{
+	text-align:center;
+	font-weight: bold;
+	letter-spacing: 2px;
+	text-shadow: 0 0 0.2em #80ffff, 0 0 0.2em #8080ff, 0 0 0.2em #000000 ;
+}
+
+#botones {
+	text-align: right;
+}
+
+
+

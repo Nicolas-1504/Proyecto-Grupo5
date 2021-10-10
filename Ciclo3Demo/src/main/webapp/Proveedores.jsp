@@ -6,15 +6,18 @@
 <html>
 <head>
  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
+<link href ="images/Principal.css" type="text/css" rel="stylesheet" />
 <meta charset="ISO-8859-1">
 <title>Creacion de Proveedor</title>
 </head>
-<body>
+<body  style="font-family:'Gluten', cursive">
 <div class="row">
-   <div class="card col-md-4">
+   <div class="card col-md-4" id="BoxUsuario">
        <div class="card-body">
-           <h5 class="card-title">Proveedores</h5>
-           <h6 class="card-subtitle mb-2 text-muted">En este panel podras gestionar los datos de los proveedores del sistema</h6>
+           <h4 class="card-title">Proveedores</h4>
+           <br>
+           <p class="card-subtitle mb-2 text-muted">En este panel podras gestionar los datos de los proveedores del sistema</p>
+           <br>
            <div>
      		 <form class="form-sign" method="get" action="Controlador">
      		 <div class="form-group">
@@ -38,8 +41,9 @@
 		        <label>Telefono:</label>
 		         <input type="text" name="telefono" class="form-control" value="${usuarioSeleccionado.getTelefono_proveedor()}">
 		        </div>
+		        <br>
 		        <input type="submit" class="btn btn-primary" name="accion" value="Agregar">
-		        <input type="submit" class="btn btn-success" name="accion" value="Actualizar">
+		        <input type="submit" class="btn btn-info" name="accion" value="Actualizar">
        	 </form>
        	 </div>
   </div>

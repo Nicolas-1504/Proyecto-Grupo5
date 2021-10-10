@@ -7,39 +7,41 @@
 	<title>Pagina Principal</title>
 	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
 	<link rel="preconnect" href="https://fonts.gstatic.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Handlee&family=Indie+Flower&family=Ubuntu+Mono&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
     <link href="assets/css/flaticon.css" rel="stylesheet">
+    <link href ="images/Principal.css" type="text/css" rel="stylesheet" />
 	<meta charset="ISO-8859-1">
 </head>
 <body style="font-family:'Gluten', cursive">
-<nav class="navbar navbar-expand-lg navbar-light " style="background-color: green; padding: 20px 30px; ">
+<nav class="navbar navbar-expand " id="menu">
   <div class="container-fluid">
     <div class="collapse navbar-collapse" id="navbarNav">
       <ul class="navbar-nav">
         <li class="nav-item">
-          <a style="margin-left:10px; border:none" class="btn btn-outline-light"  href="Controlador?menu=Principal">Home</a>
+          <a class="btn btn-outline-dark"  href="Controlador?menu=Principal">Home</a>
         </li>
         <li class="nav-item">
-          <a style="margin-left:10px; border:none" class="btn btn-outline-light" href="Controlador?menu=Usuarios&accion=Listar" target="myFrame">Usuarios</a>
+          <a class="btn btn-outline-dark" href="Controlador?menu=Usuarios&accion=Listar" target="myFrame">Usuarios</a>
         </li>
         <li class="nav-item">
-          <a style="margin-left:10px; border:none" class="btn btn-outline-light" href="Controlador?menu=Clientes&accion=Listar" target="myFrame">Clientes</a>
+          <a class="btn btn-outline-dark" href="Controlador?menu=Clientes&accion=Listar" target="myFrame">Clientes</a>
         </li>
         <li class="nav-item">
-          <a style="margin-left:10px; border:none" class="btn btn-outline-light" href="Controlador?menu=Proveedores&accion=Listar" target="myFrame">Proveedores</a>
+          <a class="btn btn-outline-dark" href="Controlador?menu=Proveedores&accion=Listar" target="myFrame">Proveedores</a>
         </li>
         <li class="nav-item">
-          <a style="margin-left:10px; border:none" class="btn btn-outline-light" href="Controlador?menu=Productos&accion=Listar" target="myFrame">Productos</a>
+          <a class="btn btn-outline-dark" href="Controlador?menu=Productos&accion=Listar" target="myFrame">Productos</a>
         </li>
         <li class="nav-item">
-          <a style="margin-left:10px; border:none" class="btn btn-outline-light" href="Controlador?menu=Ventas&accion=default&UsuarioActivo=${usuario.getCedula_usuario()}" target="myFrame">Ventas</a>
+          <a class="btn btn-outline-dark" href="Controlador?menu=Ventas&accion=default&UsuarioActivo=${usuario.getCedula_usuario()}" target="myFrame">Ventas</a>
         </li>
       </ul>
  	</div>  
 </div>     
   <div class="dropdown" >
-	  <button class="btn btn-outline-light dropdown-toggle" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
+	  <button class="btn btn-outline-info dropdown-toggle" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
 	    ${usuario.getNombre_usuario()}
 	  </button>
 	  <div class="dropdown-menu" aria-labelledby="dropdownMenuButton1">

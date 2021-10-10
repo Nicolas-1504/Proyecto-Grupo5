@@ -82,7 +82,7 @@ public class Controlador extends HttpServlet {
 				respuesta = DetalleVentaJson.postJSON(detalleVenta);
 				PrintWriter writer = response.getWriter();
 				if(respuesta==200) {
-					request.getRequestDispatcher("Controlador?menu=Ventas&accion=default").forward(request, response);;
+					request.getRequestDispatcher("Controlador?menu=Ventas&accion=default").forward(request, response);
 					System.out.println("Registros Grabados en detalle ventas: " + respuesta);
 				}else {
 					writer.println("Error detalle ventas: " + respuesta);
@@ -540,7 +540,7 @@ public class Controlador extends HttpServlet {
            			subtotaliva = 0.0;
            			totalapagar = 0.0;
        			}else {
-       				String factura = request.getParameter("numerofactura");
+       				String factura = "0"; //request.getParameter("numerofactura");
        				this.mostrarFactura(factura, request, response);
        			}       			
        			request.getRequestDispatcher("/Ventas.jsp").forward(request, response);
