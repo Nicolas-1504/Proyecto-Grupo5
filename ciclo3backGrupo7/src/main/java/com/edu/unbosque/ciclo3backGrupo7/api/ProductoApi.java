@@ -13,7 +13,6 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
 import com.edu.unbosque.ciclo3backGrupo7.entities.Producto;
-import com.edu.unbosque.ciclo3backGrupo7.entities.Usuario;
 import com.edu.unbosque.ciclo3backGrupo7.repository.ProductoRepository;
 
 @RestController

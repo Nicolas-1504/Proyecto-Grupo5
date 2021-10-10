@@ -1,0 +1,21 @@
+@charset "ISO-8859-1";
+
+body{ color:blue;
+    text-shadow: 4px 4px 4px #aaa;   
+}
+
+.box{ width:30%;
+	height:10%;
+	border:3px #0096C7 solid;
+	border-radius: 30px;
+	margin: 100px 300px;
+}
+
+.form-control{
+	border: 2px blue solid; border-radius: 20px;
+}
+
+.boton{ 
+	color: white; 
+	background: blue; 	
+}

@@ -38,7 +38,7 @@ public class DemoServlet extends HttpServlet {
 				}
 					
 				if (respuesta==0) {
-					request.getRequestDispatcher("/Inicio.jsp").forward(request, response);
+					request.getRequestDispatcher("/Principal.jsp").forward(request, response);
 					System.out.println("No se encontraron datos");
 				}
 				
