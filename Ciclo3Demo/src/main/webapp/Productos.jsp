@@ -17,7 +17,7 @@
        <div class="card-body">
            <h4 class="card-title">Productos</h4>
            <br>
-           <p class="card-subtitle mb-2 text-muted">En este panel podras gestionar los datos de los productos del sistema</p>
+           <p class="card-subtitle">En este panel podras gestionar los datos de los productos del sistema</p>
            <br>
            <div>
      		 <form class="form-sign" method="get" action="Controlador">
@@ -48,8 +48,10 @@
 		         <input type="text" name="venta" class="form-control" value="${usuarioSeleccionado.getPrecio_venta()}">
 		        </div>
 		        <br>
-		        <input type="submit" class="btn btn-primary" name="accion" value="Agregar">
-		        <input type="submit" class="btn btn-info" name="accion" value="Actualizar">
+		        <div id="botones">
+		       	 	<input type="submit" class="btn btn-primary" name="accion" value="Agregar">
+		        	<input type="submit" class="btn btn-info" name="accion" value="Actualizar">
+		        </div>
        	 </form>
     </div>
   </div>

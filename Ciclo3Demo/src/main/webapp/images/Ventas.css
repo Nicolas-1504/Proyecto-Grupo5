@@ -1,0 +1,9 @@
+@charset "ISO-8859-1";
+
+#body{
+	background: rgba(178, 235, 242,0.1);
+}
+
+#card{
+	background: rgba(178, 235, 242,0.3);
+}

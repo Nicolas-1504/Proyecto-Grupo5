@@ -17,7 +17,7 @@
        <div class="card-body">
            <h4 class="card-title">Clientes</h4>
            <br>
-           <p class="card-subtitle mb-2 text-muted">En este panel podras gestionar los datos de los clientes del sistema</p>
+           <p class="card-subtitle">En este panel podras gestionar los datos de los clientes del sistema</p>
            <br>
            <div>
      		 <form class="form-sign" method="get" action="Controlador">
@@ -44,8 +44,10 @@
 		         <input type="password" name="telefono" class="form-control" value="${usuarioSeleccionado.getTelefono_cliente()}">
 		        </div>
 		        <br>
-		        <input type="submit" class="btn btn-primary" name="accion" value="Agregar">
-		        <input type="submit" class="btn btn-info" name="accion" value="Actualizar">
+		        <div id="botones">
+		        	<input type="submit" class="btn btn-primary" name="accion" value="Agregar">
+		        	<input type="submit" class="btn btn-info" name="accion" value="Actualizar">
+	        	</div>
        	 </form>
     </div>
   </div>

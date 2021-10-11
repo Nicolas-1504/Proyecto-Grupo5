@@ -44,8 +44,10 @@
 		         <input type="password" name="password" class="form-control" value="${usuarioSeleccionado.getPassword()}">
 		        </div>
 		        <br>
-		        <input type="submit" class="btn btn-primary" name="accion" value="Agregar">
-		        <input type="submit" class="btn btn-info" name="accion" value="Actualizar">
+		        <div id="botones">
+		        	<input type="submit" class="btn btn-primary" name="accion" value="Agregar">
+		        	<input type="submit" class="btn btn-info" name="accion" value="Actualizar">
+		        </div>
        	 </form>
     </div>
   </div>
