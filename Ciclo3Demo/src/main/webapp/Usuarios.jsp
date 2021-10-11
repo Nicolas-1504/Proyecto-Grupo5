@@ -11,7 +11,7 @@
 <meta charset="ISO-8859-1">
 <title>Creacion de Usuario</title>
 </head>
-<body  style="font-family:'Gluten', cursive">
+<body style="font-family:'Gluten', cursive">
 <div class="row">
    <div class="card col-md-4" id="BoxUsuario">
        <div class="card-body">

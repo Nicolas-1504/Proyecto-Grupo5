@@ -37,6 +37,9 @@
         <li class="nav-item">
           <a class="btn btn-outline-dark" href="Controlador?menu=Ventas&accion=default&UsuarioActivo=${usuario.getCedula_usuario()}" target="myFrame">Ventas</a>
         </li>
+        <li class="nav-item">
+          <a class="btn btn-outline-dark" href="Controlador?menu=Reportes&accion=default" target="myFrame">Reportes</a>
+        </li>
       </ul>
  	</div>  
 </div>     

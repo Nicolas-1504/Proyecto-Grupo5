@@ -34,8 +34,8 @@
 				</div>
 				<div class="card" id="card">
 					<div class="card-body" >
-						<div class="form-group">
-							<label>Datos Productos</label>
+							<div class="form-group">
+								<label>Datos Productos</label>
 							</div>
 							<div>
 								<div class="form-group d-flex">
